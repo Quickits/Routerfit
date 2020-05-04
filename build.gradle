@@ -1,0 +1,3 @@
+dependencies {
+    api Config.deps.arouter.api.dep
+}
