@@ -25,8 +25,6 @@ class ARouterInitProvider : ContentProvider() {
     ): Cursor? = null
 
     override fun onCreate(): Boolean {
-        ARouter.openLog()
-        ARouter.openDebug()
         ARouter.init(context?.applicationContext as Application?)
         return true
     }
